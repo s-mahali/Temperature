@@ -62,33 +62,9 @@ vertical-align: top;
 }
 
 @media (max-width: 768px) {
-    #tempCalc label {
-        font-size: 20px;
-        text-align: center;
+    /* Adjust the container width for smaller screens */
+    .body {
+      width: 100%;
     }
-    #resultContainer{
-        font-size:20px;
-    }
-    form{
-        display: block;
-    }
-    #sub{
-        justify-content: center;
-        width: 100px;
-    }
-    
   }
-  @media (max-width: 500px) {
-    #tempCalc label {
-        font-size: 15px;
-        text-align: center;
-        form{
-            display: block;
-        }
-        
-    }
-    #resultContainer{
-        font: size 15px;
-    }
-    }
   
